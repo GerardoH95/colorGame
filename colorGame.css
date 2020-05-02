@@ -1,0 +1,51 @@
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: wheat; */
+    height: 80vh;
+}
+
+.square {
+    height: 33%;
+    width: 33%;
+    margin: 1em;
+    background-color: purple;
+}
+
+
+
+#line span {
+    color: black;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 3em;
+}
+
+.difficulty {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+h1 {
+    color: white;
+    margin: 0;
+}
+
+h1 span {
+    color: white;
+}
